@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class stack_impl {
     static int N;
     static int top=-1;
+    static int laddo=0;
     static int stack[]=new int[N];
     public stack_impl(){
         Scanner input=new Scanner(System.in);
@@ -62,3 +63,4 @@ public class stack_impl {
         }
     }
 }
+
